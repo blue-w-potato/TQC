@@ -7,7 +7,7 @@ for k in 'XY':
         if n == 'end':break
         a[-1].add(n)
 
-print(sorted((a[1]|a[0])))
-print(sorted((a[1]&a[0])))
-print(sorted((a[1]-a[0])))
-print(sorted((a[1]|a[0])-(a[1]&a[0])))
+print(sorted(a[1]|a[0]))
+print(sorted(a[1]&a[0]))
+print(sorted(a[1]-a[0]))
+print(sorted(a[1]^a[0]))
