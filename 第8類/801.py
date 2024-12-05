@@ -1,3 +1,3 @@
 a = input()
-for j,i in enumerate(a):
-    print(f'Index of \'{i}\': {j}')
+for i,j in enumerate(a):
+    print(f'Index of \'{j}\': {i}')
