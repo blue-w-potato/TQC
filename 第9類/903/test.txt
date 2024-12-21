@@ -1,0 +1,10 @@
+Append completed!
+Content of "data.txt":
+Ben
+Cathy
+Tony
+Daisy
+Kelvin
+Tom
+Joyce
+Sarah
