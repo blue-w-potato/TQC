@@ -3,7 +3,7 @@ with open( 'data.txt', 'rt' ) as s:
 for i in range(5):
     a += '\n' + input()
 
-with open( 'test.txt', 'wt', encoding='utf-8' ) as s:
+with open( 'data.txt', 'wt', encoding='utf-8' ) as s:
     print(a,end='',file=s)
     
 print('''Append completed!
